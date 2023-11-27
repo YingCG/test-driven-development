@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Testing with Fruits Monster</title>
+    <script src="/displayFruits.js"></script>
+  </head>
+  <body>
+    <h1>Yay for fruitty!</h1>
+
+    <form method="POST" action="/favFruit" style="padding: 1rem">
+      <h3><label for="fruit">Who is your favourite fruit monster?</label></h3>
+      <input id="fruit" name="fruitName" />
+      <button>Go!</button>
+    </form>
+
+    <div id="fruitList" style="padding: 1rem; color: orange">
+      <!-- Fruits will be dynamically added here -->
+    </div>
+  </body>
+</html>

@@ -1,3 +1,3 @@
 export function Star() {
-  return <h1>Cool Star</h1>;
+  return <h1>Dark Star</h1>;
 }

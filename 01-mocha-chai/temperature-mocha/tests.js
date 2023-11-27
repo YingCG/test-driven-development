@@ -8,9 +8,9 @@ describe("getCelcius", () => {
   });
 });
 
-// describe("getFahrenheit", () => {
-//   it("should convert celcius to farenheit for all values in an array", () => {
-//     expect(getFahrenheit([0])).to.deep.equal([32]);
-//     // expect(getFahrenheit([-5, 60, 100, 5])).to.deep.equal([23, 140, 212, 41]);
-//   });
-// });
+describe("getFahrenheit", () => {
+  it("should convert celcius to farenheit for all values in an array", () => {
+    expect(getFahrenheit([0])).to.deep.equal([32]);
+    // expect(getFahrenheit([-5, 60, 100, 5])).to.deep.equal([23, 140, 212, 41]);
+  });
+});

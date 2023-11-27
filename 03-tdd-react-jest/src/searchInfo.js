@@ -17,3 +17,7 @@ const searchInfo = (searchInput, db) => {
 console.log(searchInfo("cat", searchDatabase));
 
 module.exports = searchInfo;
+
+// unit testing --> funtionality --90%
+// integrating testing --> database
+// End to end testing
